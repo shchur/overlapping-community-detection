@@ -1,0 +1,26 @@
+# Python
+*.py[cod]
+.ipynb_checkpoints
+*.egg-info
+__pycache__
+.idea
+.vscode
+
+
+# Latex
+paper/*/main.pdf
+*.synctex.gz             
+*.log                    
+*.aux                    
+*.out                    
+*.dvi                    
+*.xwm                    
+*.nav                    
+*.toc                    
+*.snm                    
+comment.cut              
+*.fdb_latexmk            
+*.fls                    
+*.blg                    
+*.bbl
+
