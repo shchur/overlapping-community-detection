@@ -1,7 +1,7 @@
 # Overlapping Community Detection with Graph Neural Networks
 
 Pytorch implementation of the **Neural Overlapping Community Detection** method from
-["Overlapping Community Detection with Graph Neural Networks"](arxiv.org).
+["Overlapping Community Detection with Graph Neural Networks"](http://www.kdd.in.tum.de/nocd).
 
 ## Usage
 The main algorithm and other utilities are implemented in the `nocd` package that can be installed as
