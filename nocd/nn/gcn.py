@@ -45,7 +45,12 @@ class GraphConvolution(nn.Module):
 
 
 class GCN(nn.Module):
-    """Graph convolution network"""
+    """Graph convolution network.
+
+    References:
+        "Semi-superivsed learning with graph convolutional networks",
+        Kipf and Welling, ICLR 2017
+    """
     def __init__(self, input_dim, hidden_dims, output_dim, dropout=0.5, batch_norm=False):
         super().__init__()
         self.dropout = dropout

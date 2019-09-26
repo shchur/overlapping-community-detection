@@ -40,7 +40,15 @@ class ImpGraphConvolution(nn.Module):
 
 
 class ImprovedGCN(nn.Module):
-    """Graph convolution network"""
+    """An improved GCN architecture.
+
+    This version uses two weight matrices for self-propagation and aggregation,
+    doesn't use batchnorm, and uses Tanh instead of ReLU nonlinearities.
+    Has more stable training / faster convergence than standard GCN for overlapping
+    community detection.
+
+    This improved architecture was inspired by https://arxiv.org/abs/1906.12192
+    """
     def __init__(self, input_dim, hidden_dims, output_dim, dropout=0.5, layer_norm=False):
         super().__init__()
         self.dropout = dropout
