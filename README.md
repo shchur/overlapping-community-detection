@@ -8,7 +8,7 @@ The main algorithm and other utilities are implemented in the `nocd` package tha
 ```bash
 python setup.py install
 ```
-A Jupyter notebook `interactive.ipynb` contains the code for training the model and analyzing the results.
+A Jupyter notebook [interactive.ipynb](interactive.ipynb) contains the code for training the model and analyzing the results.
 
 Experiments in the paper have been performed using an older TensorFlow version of the code that can be found 
 [here](https://figshare.com/s/30894e4172505d5dc070).
