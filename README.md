@@ -21,7 +21,7 @@ scipy=1.3.1
 ```
 
 ## Cite
-Please cite our paper if you the code or datasets in your own work
+Please cite our paper if you use the code or the datasets in your own work
 ```
 @article{
     shchur2019overlapping,
