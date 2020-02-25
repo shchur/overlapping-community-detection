@@ -85,8 +85,6 @@ class ImprovedGCN(nn.Module):
                 x = sparse_or_dense_dropout(x, p=self.dropout, training=self.training)
             x = gcn(x, adj)
             if idx != len(self.layers) - 1:
-                if self.dropout != 0:
-                    x = F.dropout(x, p=self.dropout, training=self.training)
                 x = torch.tanh(x)
                 if self.layer_norm is not None:
                     x = self.layer_norm[idx](x)
